@@ -1,0 +1,37 @@
+.genero{
+    margin: 20px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topo{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.imagem{
+    width: 180px;
+    height: 80px;
+    margin: 2px;
+}
+input{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+
+    
+}
+#nome{
+    font-size: 20px;
+     text-align: center;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    font-size: 40px;
+}
