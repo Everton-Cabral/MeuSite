@@ -82,7 +82,7 @@ a {
     font-size: 50px;
 }
 .cards{
-    padding: 15px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -98,6 +98,7 @@ a {
     flex-direction: column;
     align-items: center;
     box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+    text-align: center;
    
 }
 
@@ -121,23 +122,32 @@ a {
 .card i {
     font-size: 30px;
 }
-.card button{
-    height: 30px;
-   padding: 5px;
-    border: none;
+.abrir{
     background-color: #F24150;
+}
+.repositorio{
+    background-color: rgb(72, 37, 6);
+}
+.abrir, .repositorio{
+    height: 30px;
+    padding: 5px;
+    border: none;
     color: white;
-    border-radius: 15px;
+    border-radius: 5px;
     font-size: 16px;
     margin: 15px 0px 15px 0px;
     cursor: pointer;
-    font-family:  Verdana, Geneva, Tahoma, sans-serif
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
    
 
 }
 
-.card button:hover{
-    background-color: #731F26;
+.abrir:hover{
+    background-color: #d7727b;
+}
+.repositorio:hover{
+    background-color: #67341d;
 }
 
 /* seção de habilidades  */
