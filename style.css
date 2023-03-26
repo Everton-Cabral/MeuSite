@@ -126,7 +126,7 @@ a {
     background-color: #F24150;
 }
 .repositorio{
-    background-color: rgb(72, 37, 6);
+    background-color: #011826;
 }
 .abrir, .repositorio{
     height: 30px;
@@ -147,7 +147,7 @@ a {
     background-color: #d7727b;
 }
 .repositorio:hover{
-    background-color: #67341d;
+    background-color: #113952;
 }
 
 /* seção de habilidades  */
